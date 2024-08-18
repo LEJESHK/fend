@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+background-color: rgb(2, 14, 50);
+}
+.headr {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 30px 10%;
+    display:flex;
+    justify-content: space-between;
+    align-items: end;
+    z-index: 100;
+
+}
+.logo{
+    font-size:20px;
+    text-decoration: none;
+    color:#f4f4fb;
+    font-weight:600;
+} .one{
+    text-decoration: none;
+    padding-right:20px;
+    align-items: end;
+    color:#f4f4fb;
+    font-weight: 400;
+    background:transparent;
+}
+ 
+nav .one:hover{
+    color:rgb(29, 168, 227);
+}
+
+.ids{
+    height:100vh;
+    display:flex;
+    
+    align-items: center;
+    margin-left:150px;
+    color:aliceblue;
+    line-height:1.5;
+}
+h1{
+    line-height: 1.5;
+    font-size:70px;
+}
+h3{
+    line-height: 1.6;
+    color:rgb(29, 168, 227);
+    font-size:50px;
+    justify-content: center;
+}
+p{
+    font-size: 18px;
+    max-width:5rem;
+    line-height:1.6;
+   display: inline;
+   
+   
+}
+.t{margin-top:25px;
+    line-height:3;
+    display:inline-block;
+    text-decoration:none;
+    background-color:rgb(29, 168, 227);
+    color:rgb(2, 14, 50);
+    width:100px;
+    font-weight: 600;
+    text-align: center;
+    border:solid 2px rgb(29, 168, 227);
+    border-radius: 0.5rem;
+    margin-right:20px;
+    overflow:hidden;
+    transition:.5s;
+}
+.t:hover{
+    color:rgb(29, 168, 227);
+    background-color: rgb(2, 14, 50) ;
+    
+}
+.font{
+    position: absolute;
+   bottom:40px;
+   width:200px;
+   border:20x solid rgb(2, 14, 50);
+
+}
+.font a i{
+    margin-right:10px;
+    align-items: center;
+    font-size: 30px;
+    color:rgb(29, 168, 227);
+    background:transparent;
+    border:2px solid rgb(29, 168, 227);
+    border-radius:50%;
+    padding:5px;
+    
+   
+}
+.font a i:hover{
+color:rgb(2, 14, 50);
+border:2px solid rgb(29, 168, 227);
+background-color: rgb(29, 168, 227);
+border-radius:50%;
+overflow:visible;
+transition:.5s;
+}
+img{
+    width:1000px;
+    margin-left:110px;
+    margin-right:140px;
+    height:500px;
+    border-radius: 25%;
+}
